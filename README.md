@@ -12,7 +12,7 @@
 
 ### 源码
 ```shell
-go install github.com/zc2638/ddshop/cmd/ddshop@latest
+go run cmd/ddshop/main.go --cookie
 ```
 
 ## 使用
