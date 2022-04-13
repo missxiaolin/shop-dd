@@ -19,13 +19,13 @@ go run cmd/ddshop/main.go --cookie
 1. 使用抓包工具获取 叮咚买菜上的用户 `cookie` (DDXQSESSID)
 2. 使用获取到的 `cookie` 替换下面命令中的 `<custom-cookie>`
 ```shell
-ddshop --cookie <custom-cookie>
+go run cmd/ddshop/main.go --cookie <custom-cookie>
 ```
 
 自定义请求间隔(ms)  
 接口连续请求的时间间隔，太频繁容易被封
 ```shell
-ddshop --cookie <custom-cookie> --interval 100
+go run cmd/ddshop/main.go --cookie <custom-cookie> --interval 100
 ```
 
 ## 抓包
